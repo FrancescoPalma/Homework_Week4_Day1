@@ -1,6 +1,6 @@
 # Sinatra Week 2 Day 1 Homework
 
-## Pet Store
+## Pet Store (100% completed)
 
 You have been asked to create an app that will allow the owner of a Pet Store chain manage his stores and stock.
 
@@ -24,7 +24,7 @@ Pet's must have a name, a type (beware reserved words) and an image.
 
 When a pet is created it must be associated with a pet store.
 
-## Further
+## Further (0% completed)
 
 * Add css styling to make the app look good
 * Use partials to avoid repeating code
