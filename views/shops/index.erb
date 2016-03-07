@@ -1,0 +1,7 @@
+<h1>PetStores</h1>
+<ul>
+  <% @shops.each do |shop| %>
+    <li><a href="/shops/<%= shop.id %>"><%= shop.name %></a> | <%= shop.address %> | <%= shop.stock_type %></li>
+  <% end %>
+</ul>
+<a href="/shops/new">Add New PetStore</a>

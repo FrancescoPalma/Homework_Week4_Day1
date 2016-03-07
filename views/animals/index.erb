@@ -1,0 +1,6 @@
+<% @animals.each do |animal| %>
+  <a href="/animals/<%= animal.id %>">
+    <%= animal.name %>
+  </a>
+  <hr>
+<% end %>

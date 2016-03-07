@@ -1,0 +1,28 @@
+<div class="content">
+
+  <h2>Edit Animal</h2>
+
+  <form action="/animals/<%= @animal.id %>" method="post">
+  
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name" value="<%= @animal.name %>"><br>
+
+    <label for="species">Species:</label>
+    <input type="text" name="species" id="species" value="<%= @animal.species %>"><br>
+
+    <label>Image:</label>
+    <input type="url" name="image_url" id="image_url" value="<%= @animal.image_url %>">
+
+    <label for="shop_id">Shop:</label>
+    <select id="shop_id" name="shop_id">
+      <% @shops.each do |shop| %>
+        <option value="<%= shop.id %>" <% if shop.id == @animal.shop_id %> selected="true" <% end %>>
+          <%= shop.name %>
+        </option>
+      <% end %>
+    </select><br>
+
+    <input type='submit' value="Update Animal">
+  </form>
+
+</div>
