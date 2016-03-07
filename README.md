@@ -1,6 +1,6 @@
 # Sinatra Week 2 Day 1 Homework
 
-## Pet Store (100% completed)
+## Pet Store (90% completed)
 
 You have been asked to create an app that will allow the owner of a Pet Store chain manage his stores and stock.
 
@@ -8,7 +8,7 @@ You must be able to:
 
 * Create Pet Stores
 * Edit Pet Stores
-* Delete Pet Stores
+* Delete Pet Stores (Couldn't find a working solution)
 * List Pet Stores
 
 Every pet store should have a name, a 1 line address and a stock type e.g "exotic".
@@ -17,7 +17,7 @@ You must also be able to:
 
 * Create pets
 * Edit Pets
-* Delete Pets
+* Delete Pets (Couldn't find a working solution)
 * List Pets
 
 Pet's must have a name, a type (beware reserved words) and an image.
