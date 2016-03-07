@@ -1,6 +1,6 @@
 # Sinatra Week 2 Day 1 Homework
 
-## Pet Store (90% completed)
+## Pet Store (87% completed)
 
 You have been asked to create an app that will allow the owner of a Pet Store chain manage his stores and stock.
 
